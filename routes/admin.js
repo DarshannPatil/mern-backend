@@ -2,7 +2,7 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const router = express.Router();
 
-const Product = require('../models/Product');
+const Product = require('../models/product');
 const User = require('../models/user');
 const Order = require('../models/Order'); // Ensure this model exists
 
