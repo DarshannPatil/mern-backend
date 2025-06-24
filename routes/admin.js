@@ -4,7 +4,7 @@ const router = express.Router();
 
 const Product = require('../models/product');
 const User = require('../models/user');
-const Order = require('../models/Order'); // Ensure this model exists
+const Order = require('../models/order'); // Ensure this model exists
 
 // Middleware to verify admin access
 const verifyAdmin = (req, res, next) => {
